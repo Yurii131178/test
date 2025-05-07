@@ -5,9 +5,15 @@ export default function App() {
     <>
       <h1>Best selling</h1>
 
-      <Product />
-      <Product />
-      <Product />
+      <Product name="Tacos With Lime" />
+      <Product name="Fries and Burger"/>
+      <Product name="Pizza with Cheese"/>
+      <Product name="Sushi with Salmon"/>
+      <Product name="Salad with Chicken"/>
+      <Product name="Pasta with Tomato"/>
+      <Product name="Ice Cream with Chocolate"/>
+      <Product name="Steak with Potatoes"/>
+      <Product name="Sandwich with Ham"/>
     </>
   );
 }

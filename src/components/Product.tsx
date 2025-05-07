@@ -1,8 +1,12 @@
-export default function Product() {
+interface ProductProps {
+    name: string; 
+}
+
+export default function Product(props: ProductProps) {
     return (
         <div>
-            <h2>Tacos</h2>
-            <p>Price: 999 credits</p>
+            <h2>{props.name}</h2>
+            <p>Price: 9.99 credits</p>
         </div>
     );
 }
